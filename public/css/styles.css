@@ -1,0 +1,87 @@
+body{
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  background-color: #222423;
+  font-family: 'Sansita Swashed', cursive;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/***********************************LANDING PAGE***********************************/
+h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+}
+h2{
+  font-weight: bold;
+  color: white;
+}
+.center {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+.ruby{
+  max-width: 400px;
+}
+.btn-home{
+  font-size: 1rem;
+  padding: 10px 40px;
+  margin: 5px;
+}
+/***********************************LOGIN PAGE***********************************/
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.btn-block{
+  margin-top: 20px;
+}
+.btn-social{
+  text-align: center;
+}
+.logout{
+  margin-top: 30px;
+  padding: 10px 40px;
+}
+#poor{
+  height: 100vh;
+  background-color: #111111;
+}
+.coal{
+  max-width: 500px;
+  max-height: 300px;
+}
+.form-control{
+  font-family: sans-serif;
+}

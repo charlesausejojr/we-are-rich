@@ -1,0 +1,28 @@
+<%- include('partials/header') %>
+
+  <section>
+
+      <form class="form-signin center" action="/login" method="POST">
+        <img class="mb-4" src="images/ruby.jpg" alt="" width="100" height="100">
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" name="username" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" name="password" placeholder="Password" required>
+        <button class="btn btn-lg btn-outline-light btn-block" type="submit">Sign in</button>
+        <div class="">
+          <a class="btn btn-block btn-social btn-google" href="/auth/google" role="button">
+            <i class="fab fa-google"></i>
+              Sign In with Google
+            </a>
+            <a class="btn btn-block btn-social btn-facebook" href="/auth/facebook" role="button">
+              <i class="fab fa-facebook"></i>
+                Sign In with Facebook
+            </a>
+        </div>
+        </form>
+
+  </section>
+
+
+<%- include('partials/footer') %>
